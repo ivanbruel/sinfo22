@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30DFBAB71A9F6EA900BCA73C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DFBAB61A9F6EA900BCA73C /* AppDelegate.swift */; };
+		30DFBABC1A9F6EA900BCA73C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30DFBABA1A9F6EA900BCA73C /* Main.storyboard */; };
+		30DFBABE1A9F6EA900BCA73C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30DFBABD1A9F6EA900BCA73C /* Images.xcassets */; };
+		30DFBAC11A9F6EA900BCA73C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30DFBABF1A9F6EA900BCA73C /* LaunchScreen.xib */; };
+		30DFBADC1A9F6F2100BCA73C /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DFBADB1A9F6F2100BCA73C /* Alamofire.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30DFBAB11A9F6EA900BCA73C /* SnapIST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapIST.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30DFBAB51A9F6EA900BCA73C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30DFBAB61A9F6EA900BCA73C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30DFBABB1A9F6EA900BCA73C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30DFBABD1A9F6EA900BCA73C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		30DFBAC01A9F6EA900BCA73C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		30DFBADB1A9F6F2100BCA73C /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30DFBAAE1A9F6EA900BCA73C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30DFBAA81A9F6EA900BCA73C = {
+			isa = PBXGroup;
+			children = (
+				30DFBAB31A9F6EA900BCA73C /* SnapIST */,
+				30DFBAB21A9F6EA900BCA73C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30DFBAB21A9F6EA900BCA73C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30DFBAB11A9F6EA900BCA73C /* SnapIST.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30DFBAB31A9F6EA900BCA73C /* SnapIST */ = {
+			isa = PBXGroup;
+			children = (
+				30DFBAD71A9F6EBE00BCA73C /* Classes */,
+				30DFBADA1A9F6F0A00BCA73C /* Frameworks */,
+				30DFBAB41A9F6EA900BCA73C /* Supporting Files */,
+			);
+			path = SnapIST;
+			sourceTree = "<group>";
+		};
+		30DFBAB41A9F6EA900BCA73C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30DFBABF1A9F6EA900BCA73C /* LaunchScreen.xib */,
+				30DFBABD1A9F6EA900BCA73C /* Images.xcassets */,
+				30DFBAB51A9F6EA900BCA73C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30DFBAD61A9F6EBA00BCA73C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				30DFBADF1A9F6FD500BCA73C /* Extensions */,
+				30DFBABA1A9F6EA900BCA73C /* Main.storyboard */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		30DFBAD71A9F6EBE00BCA73C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				30DFBAD61A9F6EBA00BCA73C /* Model */,
+				30DFBADD1A9F6FC400BCA73C /* Views */,
+				30DFBAD81A9F6EC700BCA73C /* View Controllers */,
+				30DFBAD91A9F6ED700BCA73C /* App Delegate */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		30DFBAD81A9F6EC700BCA73C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				30DFBAE01A9F6FDC00BCA73C /* Extensions */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		30DFBAD91A9F6ED700BCA73C /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				30DFBAB61A9F6EA900BCA73C /* AppDelegate.swift */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		30DFBADA1A9F6F0A00BCA73C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30DFBADB1A9F6F2100BCA73C /* Alamofire.swift */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30DFBADD1A9F6FC400BCA73C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				30DFBADE1A9F6FD000BCA73C /* Extensions */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		30DFBADE1A9F6FD000BCA73C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		30DFBADF1A9F6FD500BCA73C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		30DFBAE01A9F6FDC00BCA73C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30DFBAB01A9F6EA900BCA73C /* SnapIST */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30DFBAD01A9F6EA900BCA73C /* Build configuration list for PBXNativeTarget "SnapIST" */;
+			buildPhases = (
+				30DFBAAD1A9F6EA900BCA73C /* Sources */,
+				30DFBAAE1A9F6EA900BCA73C /* Frameworks */,
+				30DFBAAF1A9F6EA900BCA73C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapIST;
+			productName = SnapIST;
+			productReference = 30DFBAB11A9F6EA900BCA73C /* SnapIST.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30DFBAA91A9F6EA900BCA73C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "SINFO XXII";
+				TargetAttributes = {
+					30DFBAB01A9F6EA900BCA73C = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 30DFBAAC1A9F6EA900BCA73C /* Build configuration list for PBXProject "SnapIST" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30DFBAA81A9F6EA900BCA73C;
+			productRefGroup = 30DFBAB21A9F6EA900BCA73C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30DFBAB01A9F6EA900BCA73C /* SnapIST */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30DFBAAF1A9F6EA900BCA73C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30DFBABC1A9F6EA900BCA73C /* Main.storyboard in Resources */,
+				30DFBAC11A9F6EA900BCA73C /* LaunchScreen.xib in Resources */,
+				30DFBABE1A9F6EA900BCA73C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30DFBAAD1A9F6EA900BCA73C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30DFBADC1A9F6F2100BCA73C /* Alamofire.swift in Sources */,
+				30DFBAB71A9F6EA900BCA73C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		30DFBABA1A9F6EA900BCA73C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30DFBABB1A9F6EA900BCA73C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30DFBABF1A9F6EA900BCA73C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30DFBAC01A9F6EA900BCA73C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30DFBACE1A9F6EA900BCA73C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30DFBACF1A9F6EA900BCA73C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30DFBAD11A9F6EA900BCA73C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SnapIST/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		30DFBAD21A9F6EA900BCA73C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SnapIST/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30DFBAAC1A9F6EA900BCA73C /* Build configuration list for PBXProject "SnapIST" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30DFBACE1A9F6EA900BCA73C /* Debug */,
+				30DFBACF1A9F6EA900BCA73C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30DFBAD01A9F6EA900BCA73C /* Build configuration list for PBXNativeTarget "SnapIST" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30DFBAD11A9F6EA900BCA73C /* Debug */,
+				30DFBAD21A9F6EA900BCA73C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30DFBAA91A9F6EA900BCA73C /* Project object */;
+}
